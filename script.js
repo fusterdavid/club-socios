@@ -100,7 +100,7 @@ const socios = [
   },
 {
     "numero_socio": "012",
-    "documento": "12345678",
+    "documento": "27903017",
     "nombre": "Piazza, María Mercedes",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
