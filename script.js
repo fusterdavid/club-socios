@@ -4,8 +4,8 @@ const socios = [
     "documento": "21984997",
     "nombre": "Fuster, David Alejandro",
     "fecha_afiliacion": "2020-03-15",
-    "tipo": "oro"
-    "Función": "Tercer vocal titular"
+    "tipo": "oro",
+    "función": "Tercer vocal titular",
     "cuotas_adeudadas": 0
   },
   {
@@ -14,7 +14,7 @@ const socios = [
     "nombre": "Roldan Contreras, Shane Alexander",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
-    "Función": "Tesorero"
+    "función": "Tesorero",
     "cuotas_adeudadas": 0
   },
   {
@@ -23,10 +23,10 @@ const socios = [
     "nombre": "Centeno Samuel",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
-    "Función": "Socio"
+    "función": "Socio",
     "cuotas_adeudadas": 0
   },
-   {
+  {
     "numero_socio": "004",
     "documento": "",
     "nombre": "Gaia Eliana",
@@ -35,7 +35,7 @@ const socios = [
     "función": "",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "005",
     "documento": "48123115",
     "nombre": "Assis, Constanza Pilar",
@@ -44,7 +44,7 @@ const socios = [
     "función": "Secretario",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "006",
     "documento": "49466161",
     "nombre": "Maeda, Milagros",
@@ -53,7 +53,7 @@ const socios = [
     "función": "Vocal",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "007",
     "documento": "49466161",
     "nombre": "Gomez, Francisco Axel",
@@ -62,7 +62,7 @@ const socios = [
     "función": "Presidente",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "008",
     "documento": "49466161",
     "nombre": "Amaya Muñoz, Ricardo Andres",
@@ -71,7 +71,7 @@ const socios = [
     "función": "Vocal",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "009",
     "documento": "47988794",
     "nombre": "Delgado, Ian Elias",
@@ -80,7 +80,7 @@ const socios = [
     "función": "Vocal",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "010",
     "documento": "46728052",
     "nombre": "Del Río Ferrada, Tamara",
@@ -89,7 +89,7 @@ const socios = [
     "función": "Vocal",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "011",
     "documento": "49026090",
     "nombre": "Mereles, Cristian Guillermo",
@@ -98,7 +98,7 @@ const socios = [
     "función": "Vocal",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "012",
     "documento": "27903017",
     "nombre": "Piazza, María Mercedes",
@@ -107,7 +107,7 @@ const socios = [
     "función": "Socio",
     "cuotas_adeudadas": 0
   },
-{
+  {
     "numero_socio": "013",
     "documento": "32646413",
     "nombre": "Gaia, Eliana Elizabeth",
@@ -115,7 +115,7 @@ const socios = [
     "tipo": "oro",
     "función": "Socio",
     "cuotas_adeudadas": 0
-  },
+  }
 ];
 
 function buscarSocio() {
@@ -129,14 +129,3 @@ function buscarSocio() {
 
     resultadoDiv.innerHTML = `
       <p><strong>Número de socio:</strong> ${socio.numero_socio}</p>
-      <p><strong>Documento:</strong> ${socio.documento}</p>
-      <p><strong>Nombre completo:</strong> ${socio.nombre}</p>
-      <p><strong>Fecha de afiliación:</strong> ${socio.fecha_afiliacion}</p>
-      <p><strong>Tipo de socio:</strong> ${socio.tipo}</p>
-      <p><strong>Función:</strong> ${socio.función}</p>
-      <p><strong>Estado:</strong> ${estado}</p>
-    `;
-  } else {
-    resultadoDiv.innerHTML = "<p>Socio no encontrado.</p>";
-  }
-}
