@@ -10,7 +10,7 @@ const socios = [
   },
   {
     "numero_socio": "002",
-    "documento": "89101112",
+    "documento": "46176192",
     "nombre": "Roldan Contreras, Shane Alexander",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
