@@ -1,35 +1,119 @@
 const socios = [
   {
     "numero_socio": "001",
-    "documento": "12345678",
-    "nombre": "Samuel Centeno",
+    "documento": "21984997",
+    "nombre": "Fuster, David Alejandro",
     "fecha_afiliacion": "2020-03-15",
-    "tipo": "oro",
+    "tipo": "oro"
+    "Función": "Tercer vocal titular"
     "cuotas_adeudadas": 0
   },
   {
     "numero_socio": "002",
     "documento": "89101112",
-    "nombre": "Eliana Gaia",
+    "nombre": "Roldan Contreras, Shane Alexander",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
+    "Función": "Tesorero"
     "cuotas_adeudadas": 0
   },
   {
     "numero_socio": "003",
-    "documento": "27903017",
-    "nombre": "María Mercedes Piazza",
+    "documento": "",
+    "nombre": "Centeno Samuel",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
+    "Función": "Socio"
     "cuotas_adeudadas": 0
   },
    {
     "numero_socio": "004",
-    "documento": "21984997",
-    "nombre": "David Alejandro Fuster",
+    "documento": "",
+    "nombre": "Gaia Eliana",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
-    "función": "Vocal tituar",
+    "función": "",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "005",
+    "documento": "48123115",
+    "nombre": "Assis, Constanza Pilar",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Secretario",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "006",
+    "documento": "49466161",
+    "nombre": "Maeda, Milagros",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Vocal",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "007",
+    "documento": "49466161",
+    "nombre": "Gomez, Francisco Axel",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Presidente",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "008",
+    "documento": "49466161",
+    "nombre": "Amaya Muñoz, Ricardo Andres",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Vocal",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "009",
+    "documento": "47988794",
+    "nombre": "Delgado, Ian Elias",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Vocal",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "010",
+    "documento": "46728052",
+    "nombre": "Del Río Ferrada, Tamara",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Vocal",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "011",
+    "documento": "49026090",
+    "nombre": "Mereles, Cristian Guillermo",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Vocal",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "012",
+    "documento": "12345678",
+    "nombre": "Piazza, María Mercedes",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Socio",
+    "cuotas_adeudadas": 0
+  },
+{
+    "numero_socio": "013",
+    "documento": "32646413",
+    "nombre": "Gaia, Eliana Elizabeth",
+    "fecha_afiliacion": "2022-07-10",
+    "tipo": "oro",
+    "función": "Socio",
     "cuotas_adeudadas": 0
   },
 ];
