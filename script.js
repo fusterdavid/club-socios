@@ -49,6 +49,7 @@ function buscarSocio() {
       <p><strong>Nombre completo:</strong> ${socio.nombre}</p>
       <p><strong>Fecha de afiliación:</strong> ${socio.fecha_afiliacion}</p>
       <p><strong>Tipo de socio:</strong> ${socio.tipo}</p>
+      <p><strong>Función:</strong> ${socio.función}</p>
       <p><strong>Estado:</strong> ${estado}</p>
     `;
   } else {
