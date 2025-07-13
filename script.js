@@ -29,6 +29,7 @@ const socios = [
     "nombre": "David Alejandro Fuster",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
+    "función": "Vocal tituar",
     "cuotas_adeudadas": 0
   },
 ];
