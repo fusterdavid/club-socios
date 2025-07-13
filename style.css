@@ -1,0 +1,64 @@
+body {
+  background-color: #6a0dad;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 12px;
+  font-size: 16px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  width: 90%;
+  max-width: 300px;
+}
+
+button {
+  background-color: white;
+  color: #6a0dad;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  input, button {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #resultado {
+    font-size: 16px;
+  }
+}
