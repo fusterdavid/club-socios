@@ -6,7 +6,7 @@ const socios = [
     "fecha_afiliacion": "2020-03-15",
     "tipo": "oro",
     "función": "Tercer vocal titular",
-    "cuotas_adeudadas": 0
+    "cuotas_adeudadas": 1
   },
   {
     "numero_socio": "002",
