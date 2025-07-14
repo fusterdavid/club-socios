@@ -125,7 +125,10 @@ function buscarSocio() {
   const resultadoDiv = document.getElementById('resultado');
   if (socio) {
     const cuotas = socio.cuotas_adeudadas || 0;
-    const estado = cuotas === 0 ? "Activo (cuotas al día)" : `Debe ${cuotas} cuota(s)`;
+ // --- MODIFICACIÓN AQUÍ ---
+    const estado = cuotas === 0 
+      ? `Activo (cuotas al día) <a href="beneficios.html" class="btn-beneficios">Obtener beneficios</a>`
+      : `Debe ${cuotas} cuota(s)`;
 
     resultadoDiv.innerHTML = `
       <p><strong>Número de socio:</strong> ${socio.numero_socio}</p>
