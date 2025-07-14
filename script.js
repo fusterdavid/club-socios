@@ -28,11 +28,11 @@ const socios = [
   },
   {
     "numero_socio": "004",
-    "documento": "",
+    "documento": "32646413",
     "nombre": "Gaia Eliana",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
-    "función": "",
+    "función": "Socio",
     "cuotas_adeudadas": 0
   },
   {
@@ -109,8 +109,8 @@ const socios = [
   },
   {
     "numero_socio": "013",
-    "documento": "32646413",
-    "nombre": "Gaia, Eliana Elizabeth",
+    "documento": "",
+    "nombre": "",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
     "función": "Socio",
