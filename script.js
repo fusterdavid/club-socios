@@ -55,7 +55,7 @@ const socios = [
   },
   {
     "numero_socio": "007",
-    "documento": "49466161",
+    "documento": "46670288",
     "nombre": "Gomez, Francisco Axel",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
@@ -64,7 +64,7 @@ const socios = [
   },
   {
     "numero_socio": "008",
-    "documento": "49466161",
+    "documento": "96113331",
     "nombre": "Amaya Muñoz, Ricardo Andres",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
@@ -104,7 +104,7 @@ const socios = [
     "nombre": "Piazza, María Mercedes",
     "fecha_afiliacion": "2022-07-10",
     "tipo": "oro",
-    "función": "Socio",
+    "función": "Contralor",
     "cuotas_adeudadas": 0
   },
   {
